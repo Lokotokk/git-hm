@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    padding-bottom: 96px;
+}
+
+.center {
+    padding-left: calc(50% - 587px);
+    padding-right: calc(50% - 587px);
+}
+
+.header {
+    padding-top: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.logo {
+    margin-right: 450px;
+}
+
+.home {
+    color: #F25822;
+}
+
+.top__content {
+    margin-top: 87px;
+    padding-bottom: 162px;
+    display: flex;
+    gap: 41px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__info {
+    margin-top: 96px;
+}
+
+.title {
+    margin-bottom: 17px;
+    width: 522px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.content_text {
+    width: 466px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.buttons {
+    margin-top: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 57px;
+}
+
+.button__orange {
+    display:inline-flex;
+    padding: 15px 35px;
+    align-items: center;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button__white {
+    color: #AAA;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: white;
+    border: none;
+    display:inline-flex;
+    padding: 15px 35px;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.top__logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 42px;
+}
+
+.first__line {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    color: #FAFAFA;
+}
+
+.item {
+    padding-left: 30px;
+    padding-bottom: 25px;
+    padding-top:40px;
+    padding-right: 31px;
+    display: grid;
+    gap: 25px;
+}
+
+.item__shadow {
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.item__title {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 17px;
+}
+
+.item__text {
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    width: 310px;
+}
+
+.item__more {
+    color: #000;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+.content__text {
+    margin-top: 92px;
+    margin-bottom: 54px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.content__title {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.content__paragraph {
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 700px;
+}
+
+.second__line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.item__second {
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+}
+
+.shadow {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}
+
+.sec {
+    margin-bottom: 22px;
+    text-align: center;
+}
+
+.item2__text {
+    color: #AAA;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 39px;
+    width: 310px;
+}
+
+.content__button {
+    display:inline-flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-size: 13px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px 26px 15px 46px;
+}
+
+.third {
+    z-index: -1;
+}
